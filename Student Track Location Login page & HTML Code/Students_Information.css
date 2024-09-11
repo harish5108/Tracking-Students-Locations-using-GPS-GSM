@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.table table-striped table-bordered,.list,.table_color{
+    background-color: gray;
+    border-width: 1px;
+    border-style: outset;
+    border-color: lightgray;
+
+}
+.table_color{
+    padding: 20px;
+    margin-left: off;
+}
+h1{
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    text-shadow: 0 0 60px rgb(0, 0, 0);
+}
+body{
+    background-image: url(t1.jpeg);
+}
+/* body{
+    background: rgb(123, 219, 144);
+} */
+.form{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(250,250,250);
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+/* .form{
+    width: inherit;
+    height: inherit;
+    background: rgba(255,255,255,.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+} */
+.form,.database button:hover{
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgb(5, 5, 5);
+}
+.form input{
+    border: 1px solid rgba(100,100,100,0.3);
+    box-shadow: 1px 1px 2px rgba(180,180,180,0.3),
+    -1px -1px 2px rgba(180,180,180,0.3);
+    margin: 15px auto 0px auto;
+    height: 10px auto ;
+    width: auto;
+    border-radius: 4px;
+    text-align: center;
+}
+.form input[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background: rgb(15, 48, 49);
+    width: 77%;
+    cursor: pointer;
+    border-radius: 8px;
+    color: rgb(255,255,255);
+    border: none;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+::placeholder{
+    position: relative;
+    left: 10px;
+    text-align: justify;
+}
+th{
+    text-align: center;
+    position: relative;
+    top: 4px;
+}
+.database button{
+    margin-top: 15px;
+    margin-left: 10px;
+    background: rgb(136, 135, 123);
+    width: 16%;
+    cursor: pointer;
+    border-radius: 7px;
+    color: rgb(255,255,255);
+    border: none;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.database button:hover{
+    color: rgb(123, 219, 144);
+}
+
+.form input[type="submit"]:hover{
+    color: rgb(123, 219, 144);
+}
+.signout1{
+    margin-left: 30px;
+    margin-top: 80px;
+    padding: 5px;
+    background: rgb(165, 1, 1);
+    border-radius:  5px 5px 5px 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(165, 1, 1);
+    color: rgb(255,255,255);
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.signout1:hover{
+    color: rgb(217, 231, 20);
+}
+.signout1:hover{
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
