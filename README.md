@@ -12,3 +12,6 @@
 <p>✅. We propose the Design of a smart sensor Network based on RFID Communication Technologies.</p>
 <p>✅. Collaborated with a team, conducted testing, and provided ongoing updates to enhance system reliability and reduce costs.</p>
 </div>
+
+![image](https://github.com/user-attachments/assets/5e495887-3dbb-4ccc-acf6-a8917c8ea55d)
+
